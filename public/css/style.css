@@ -1,0 +1,96 @@
+/* Styles de base de la navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #ff9900;
+}
+
+.navbar .login {
+    display: none;
+}
+
+
+.navbar.logged-out .login {
+    display: inline;
+}
+
+.navbar.logged-in .logout {
+    display: inline; 
+}
+
+.title{
+    text-align: center;
+}
+
+.file-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+.file-table th,
+.file-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.file-table th {
+    background-color: #000;
+    color: #fff;
+}
+
+.file-table tbody tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+.file-table a {
+    text-decoration: none;
+    color: #000;
+}
+
+.file-table a:hover {
+    color: #333;
+}
+
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #3b3b3d;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    color:#fff
+}	
+
+.login-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+} 
+
+.title-home{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px
+}
